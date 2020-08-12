@@ -4,7 +4,9 @@ def reverse_each_word(string)
   reversed_array = []
   
   array.each { |element|
-    
+    reversed_array << element.reverse
   }
+  
+  reversed_array
   
 end
