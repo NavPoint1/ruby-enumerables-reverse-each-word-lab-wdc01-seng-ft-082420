@@ -1,8 +1,9 @@
-
+require 'pry'
 
 def reverse_each_word(string)
   
   array = %w[string]
+  binding.pry
   reversed_array = []
   
   array.each { |element|
